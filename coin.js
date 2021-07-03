@@ -27,3 +27,8 @@ navLinks.forEach(link => {
 
     })
 })
+
+// check price every 60 seconds
+setInterval(function () {
+    checkPrice()
+}, 60000)
